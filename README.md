@@ -21,12 +21,12 @@ describe('MyComponent', () => {
 ### npm
 
 ```
-npm install noop
+npm install noop --save-dev
 ```
 
 ### yarn
 
 ```
-yarn add noop
+yarn add noop --dev
 ```
 
