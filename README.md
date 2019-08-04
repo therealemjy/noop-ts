@@ -1,4 +1,4 @@
-# noop
+# noop-ts
 
 A very simple "do nothing" JavaScript function, compatible with TypeScript.
 Since the noop accepts any arguments (and does nothing in return), it can be used as a replacement of any function passed as a parameter of another function or a property of a web/React/Angular/(...) component.
@@ -21,12 +21,12 @@ describe('MyComponent', () => {
 ### npm
 
 ```
-npm install noop --save-dev
+npm install noop-ts --save-dev
 ```
 
 ### yarn
 
 ```
-yarn add noop --dev
+yarn add noop-ts --dev
 ```
 
