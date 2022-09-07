@@ -19,7 +19,7 @@
     "url": "https://github.com/therealemjy/noop-ts/issues"
   },
   "homepage": "https://github.com/therealemjy/noop-ts#readme",
-  "dependencies": {
-    "typescript": "^3.4.3"
+  "devDependencies": {
+    "typescript": "^4.8.2"
   }
 }
