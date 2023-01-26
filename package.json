@@ -1,13 +1,13 @@
 {
   "name": "noop-ts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A very simple \"do nothing\" JavaScript function, compatible with TypeScript.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "prebuild": "rm -rf dist",
+    "prepare": "rm -rf dist",
     "build": "tsc --declaration",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/therealemjy/noop-ts#readme",
   "devDependencies": {
     "typescript": "^4.8.2"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0"
   }
 }
