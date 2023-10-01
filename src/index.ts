@@ -1,1 +1,2 @@
-export default (...args: any[]): any => {};
+const noop: (..._args: any[]) => any = () => {};
+export default noop;
