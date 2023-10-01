@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/therealemjy/noop-ts#readme",
   "devDependencies": {
-    "typescript": "^4.8.2"
+    "typescript": "^5.2.2"
   },
   "engines": {
     "npm": ">=8.0.0 <9.0.0"
